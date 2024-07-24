@@ -13,9 +13,29 @@ footer {
     background-color: #1F2937;
 }
 
-header {
-    background-color: #1F2937
+header  {
+    background-color: #1F2937;
+    
 }
+
+header > div {
+
+    width: auto;
+    margin: auto;
+    justify-content: left;
+}
+
+header > ul {
+
+    width: auto;
+    margin: auto;
+}
+
+header > li {
+
+    margin: auto;
+}
+
 
 h1 {
     font-size: 48px;
@@ -113,3 +133,24 @@ h1 {
 h2 {
     margin: auto;
 }
+
+#images_Text {
+
+    justify-content: center;
+}
+
+.images_Text {
+ font-size: 10px;
+margin: auto;
+ width: 100px;
+text-align: center;
+}
+
+
+
+img {
+    height: 100px;
+    width: 100px;
+    margin: 25px;
+}
+
