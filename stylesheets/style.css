@@ -23,16 +23,14 @@ h1 {
     color: #f9FAF8;
 }
 
-#quote {
 
-    background-color: #e5e7eb ;
-}
 
 #quote p {
     font-size: 36px;
     font-style: italic;
     font-weight: lighter;
     color: #1F2937;
+    margin: 0px;
 }
 
 .linkn2ndtext {
@@ -47,11 +45,7 @@ h1 {
     color: #F9FAf8;
 }
 
-#calltobox {
 
-    background-color: #3882F6;
-
-}
 
 .verticalboxes {
 
@@ -69,4 +63,53 @@ h1 {
 
     border: 20px;
     margin: 20px;
+}
+
+#quote {
+
+     margin: 100px 300px 0px 300px;
+     align-items: center;
+     
+}
+
+#author {
+     
+     margin: 0px 500px 100px 0px;
+     align-items: end;
+     
+}
+
+#quote_Section {
+
+    flex-direction: column;
+    align-items: end;
+    background-color: #e5e7eb ;
+}
+
+#call_ToArms {
+
+    margin: 100px;
+   justify-content: center;
+}
+
+#calltobox {
+
+    background-color: #3882F6;
+    flex-direction: row;
+    align-content: center;
+    padding: 50px;
+}
+
+#call_button {
+
+    margin:auto 50px;
+}
+
+.justified_Content {
+
+    justify-content: center;
+}
+
+h2 {
+    margin: auto;
 }
